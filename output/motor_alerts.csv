@@ -1,0 +1,6 @@
+timestamp,motor_id,motor_name,voltage_V,current_A,temperature_C,vibration_mm_s,rpm,alert_count,is_alert,alert_details
+2024-01-01 11:00:00,M001,Traction Motor 1,416,44,90,1.2,1481,1,True,Temperature HIGH: 90°C (Safe: 0–85°C)
+2024-01-01 10:00:00,M002,Traction Motor 2,290,38,66,1.0,1200,2,True,Voltage LOW: 290V (Safe: 380–440V) | Speed (RPM) LOW: 1200RPM (Safe: 1400–1510RPM)
+2024-01-01 12:00:00,M003,Auxiliary Motor 1,417,27,61,5.8,1492,1,True,Vibration HIGH: 5.8mm/s (Safe: 0–4.5mm/s)
+2024-01-01 11:00:00,M004,Compressor Motor,419,88,73,1.5,1475,1,True,Current HIGH: 88A (Safe: 0–80A)
+2024-01-01 12:00:00,M005,Cooling Fan Motor,413,18,110,0.8,1494,1,True,Temperature HIGH: 110°C (Safe: 0–85°C)
